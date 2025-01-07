@@ -12,7 +12,7 @@ const productSchema = new mongoose.Schema(
         },
         image: {
             type: String,
-            required: trusted,
+            required: true,
         },
     },
     {
