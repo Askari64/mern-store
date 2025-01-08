@@ -21,7 +21,7 @@ export const connectDatabase = async () => {
     process.exit(1);
   }
 
-  mongoose.connection.on("disconnectied", () => {
+  mongoose.connection.on("disconnected", () => {
     console.log("🔴 MongoDB has been disconnected");
     connectedState = false;
   });
