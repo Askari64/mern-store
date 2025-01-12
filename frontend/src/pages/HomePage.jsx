@@ -31,6 +31,7 @@ function HomePage() {
               productImgURL={product.image}
               productName={product.name}
               productPrice={product.price}
+              productID={product._id}
             />
           ))}
         </SimpleGrid>
